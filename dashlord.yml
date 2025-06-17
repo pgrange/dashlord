@@ -13,7 +13,7 @@ tools:
   testssl: true
   lighthouse: true
   thirdparties: true
-  nuclei: true
+  nuclei: false
   updownio: false
   dependabot: true
   codescan: true
@@ -34,4 +34,4 @@ urls:
       - socialgouv/www
     docker:
       - ghcr.io/socialgouv/fabrique/frontend
-  - url: https://beta.gouv.fr
+  - url: https://scanme.nmap.org
