@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.1",
-	"@generated": "Sun, 28 Sept 2025 01:03:20",
-	"created": "2025-09-28T01:03:20.109626067Z",
+	"@generated": "Sun, 5 Oct 2025 01:03:22",
+	"created": "2025-10-05T01:03:22.778411640Z",
 	"site":[ 
 		{
 			"@name": "https://www.fabrique.social.gouv.fr",
@@ -30,7 +30,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"redirect_to\" \"rememberme\" \"testcookie\" \"user_login\" \"user_pass\" \"wp-submit\" ]."
 						},
 						{
-							"id": "163",
+							"id": "162",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?action=lostpassword",
 							"method": "GET",
 							"param": "",
@@ -39,7 +39,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"redirect_to\" \"user_login\" \"wp-submit\" ]."
 						},
 						{
-							"id": "116",
+							"id": "108",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "",
@@ -48,7 +48,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"redirect_to\" \"rememberme\" \"testcookie\" \"user_login\" \"user_pass\" \"wp-submit\" ]."
 						},
 						{
-							"id": "169",
+							"id": "168",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "",
@@ -72,7 +72,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1953"
+					"sourceid": "1951"
 				},
 				{
 					"pluginid": "10055",
@@ -85,7 +85,7 @@
 					"desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "7",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -94,7 +94,7 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "10",
+							"id": "28",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -103,7 +103,7 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "43",
+							"id": "42",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-admin/",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -131,7 +131,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "8",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -140,7 +140,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
 						},
 						{
-							"id": "11",
+							"id": "29",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -149,7 +149,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
 						},
 						{
-							"id": "44",
+							"id": "43",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-admin/",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -177,7 +177,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "9",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -186,7 +186,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "12",
+							"id": "30",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -223,7 +223,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "10",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -232,7 +232,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "13",
+							"id": "31",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -287,7 +287,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "52",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-admin/admin-ajax.php",
 							"method": "GET",
 							"param": "",
@@ -296,7 +296,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "97",
+							"id": "103",
 							"uri": "https://www.fabrique.social.gouv.fr/xmlrpc.php",
 							"method": "GET",
 							"param": "",
@@ -305,7 +305,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "127",
+							"id": "126",
 							"uri": "https://www.fabrique.social.gouv.fr/xmlrpc.php?rsd",
 							"method": "GET",
 							"param": "",
@@ -320,7 +320,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1507"
+					"sourceid": "1535"
 				},
 				{
 					"pluginid": "10055",
@@ -333,7 +333,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "6",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -342,7 +342,7 @@
 							"otherinfo": "Errors:\nDirective name * contains characters outside the range ALPHA / DIGIT / \"-\"\n"
 						},
 						{
-							"id": "9",
+							"id": "27",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -351,7 +351,7 @@
 							"otherinfo": "Errors:\nDirective name * contains characters outside the range ALPHA / DIGIT / \"-\"\n"
 						},
 						{
-							"id": "42",
+							"id": "41",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-admin/",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -388,7 +388,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "161",
+							"id": "160",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?action=lostpassword",
 							"method": "GET",
 							"param": "wordpress_test_cookie",
@@ -397,7 +397,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "114",
+							"id": "106",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "wordpress_test_cookie",
@@ -406,7 +406,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "167",
+							"id": "166",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "wordpress_test_cookie",
@@ -430,7 +430,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "1953"
+					"sourceid": "1951"
 				},
 				{
 					"pluginid": "10054",
@@ -452,7 +452,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "162",
+							"id": "161",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?action=lostpassword",
 							"method": "GET",
 							"param": "wordpress_test_cookie",
@@ -461,7 +461,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "115",
+							"id": "107",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "wordpress_test_cookie",
@@ -470,7 +470,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "168",
+							"id": "167",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "wordpress_test_cookie",
@@ -494,7 +494,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "1953"
+					"sourceid": "1951"
 				},
 				{
 					"pluginid": "10110",
@@ -507,53 +507,8 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "155",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=1017690388",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						},
-						{
-							"id": "156",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=1110040048",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						},
-						{
-							"id": "143",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=1230900547",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						},
-						{
-							"id": "140",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=2107048954",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						},
-						{
-							"id": "148",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=540026950",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						},
-						{
-							"id": "133",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=800568601",
+							"id": "132",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=1717319380",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -562,7 +517,7 @@
 						},
 						{
 							"id": "153",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=973572431",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=1718830740",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -570,17 +525,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "149",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=1230900547",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						},
-						{
-							"id": "145",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=2107048954",
+							"id": "151",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=1924214910",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -589,7 +535,7 @@
 						},
 						{
 							"id": "152",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=540026950",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=209458463",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -597,8 +543,53 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "136",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=800568601",
+							"id": "149",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=306397709",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "155",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=575714495",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "137",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=949610359",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "135",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=1717319380",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "154",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=1718830740",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "150",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=1924214910",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -607,7 +598,25 @@
 						},
 						{
 							"id": "157",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=973572431",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=209458463",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "147",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=306397709",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "eval(",
+							"otherinfo": ""
+						},
+						{
+							"id": "143",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=949610359",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -615,13 +624,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "12",
+					"count": "13",
 					"solution": "<p>See the references for security advice on the use of these functions.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "1121"
+					"sourceid": "544"
 				},
 				{
 					"pluginid": "110009",
@@ -658,7 +667,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "1507"
+					"sourceid": "1535"
 				},
 				{
 					"pluginid": "90004",
@@ -671,7 +680,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "35",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -680,7 +689,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "36",
 							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -689,7 +698,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "57",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-index.xsl",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -698,7 +707,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "62",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-posts-post-1.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -707,7 +716,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "47",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -716,17 +725,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "37",
 							"uri": "https://www.fabrique.social.gouv.fr",
-							"method": "GET",
-							"param": "Cross-Origin-Embedder-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "51",
-							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-index.xsl",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -735,6 +735,15 @@
 						},
 						{
 							"id": "58",
+							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-index.xsl",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "63",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-posts-post-1.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -743,7 +752,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "48",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -752,7 +761,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "39",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -761,7 +770,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "59",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-index.xsl",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -770,7 +779,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "64",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-posts-post-1.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -779,7 +788,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "50",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -807,7 +816,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "34",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -816,7 +825,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "88",
 							"uri": "https://www.fabrique.social.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -825,7 +834,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "104",
+							"id": "123",
 							"uri": "https://www.fabrique.social.gouv.fr/accessibilite",
 							"method": "GET",
 							"param": "",
@@ -834,7 +843,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "125",
+							"id": "122",
 							"uri": "https://www.fabrique.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
@@ -843,16 +852,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
-							"uri": "https://www.fabrique.social.gouv.fr/nos-startups",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "96",
+							"id": "99",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-equipe",
 							"method": "GET",
 							"param": "",
@@ -861,7 +861,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "92",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-histoire",
 							"method": "GET",
 							"param": "",
@@ -870,7 +870,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "93",
+							"id": "97",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-offre-de-valeur",
 							"method": "GET",
 							"param": "",
@@ -879,7 +879,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
+							"id": "96",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-plateforme",
 							"method": "GET",
 							"param": "",
@@ -888,7 +888,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "54",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-admin/admin-ajax.php",
 							"method": "GET",
 							"param": "",
@@ -897,7 +897,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "117",
+							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "104",
 							"uri": "https://www.fabrique.social.gouv.fr/xmlrpc.php",
 							"method": "GET",
 							"param": "",
@@ -925,49 +934,40 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "90",
-							"uri": "https://www.fabrique.social.gouv.fr/notre-offre-de-valeur",
+							"id": "78",
+							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2019918413",
-							"otherinfo": "2019918413, which evaluates to: 2034-01-03 16:26:53."
+							"evidence": "1717319380",
+							"otherinfo": "1717319380, which evaluates to: 2024-06-02 09:09:40."
 						},
 						{
-							"id": "84",
-							"uri": "https://www.fabrique.social.gouv.fr/notre-plateforme",
+							"id": "12",
+							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1717675249",
-							"otherinfo": "1717675249, which evaluates to: 2024-06-06 12:00:49."
+							"evidence": "1731996416",
+							"otherinfo": "1731996416, which evaluates to: 2024-11-19 06:06:56."
 						},
 						{
-							"id": "106",
-							"uri": "https://www.fabrique.social.gouv.fr/plan-de-site",
+							"id": "80",
+							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1853653372",
-							"otherinfo": "1853653372, which evaluates to: 2028-09-27 07:42:52."
-						},
-						{
-							"id": "109",
-							"uri": "https://www.fabrique.social.gouv.fr/plan-de-site",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1962056779",
-							"otherinfo": "1962056779, which evaluates to: 2032-03-04 23:46:19."
+							"evidence": "1830518693",
+							"otherinfo": "1830518693, which evaluates to: 2028-01-03 13:24:53."
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>2019918413, which evaluates to: 2034-01-03 16:26:53.</p>",
+					"otherinfo": "<p>1717319380, which evaluates to: 2024-06-02 09:09:40.</p>",
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "150"
+					"sourceid": "12"
 				},
 				{
 					"pluginid": "10094",
@@ -980,7 +980,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "0",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -989,7 +989,7 @@
 							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
 						},
 						{
-							"id": "66",
+							"id": "76",
 							"uri": "https://www.fabrique.social.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -998,7 +998,7 @@
 							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
 						},
 						{
-							"id": "99",
+							"id": "101",
 							"uri": "https://www.fabrique.social.gouv.fr/accessibilite",
 							"method": "GET",
 							"param": "",
@@ -1008,15 +1008,6 @@
 						},
 						{
 							"id": "102",
-							"uri": "https://www.fabrique.social.gouv.fr/feed",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/app/uploads/2024/03/cropped-faviconV2-32x32",
-							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
-						},
-						{
-							"id": "100",
 							"uri": "https://www.fabrique.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
@@ -1025,7 +1016,7 @@
 							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
 						},
 						{
-							"id": "80",
+							"id": "100",
 							"uri": "https://www.fabrique.social.gouv.fr/nos-startups",
 							"method": "GET",
 							"param": "",
@@ -1034,7 +1025,7 @@
 							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
 						},
 						{
-							"id": "81",
+							"id": "93",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-equipe",
 							"method": "GET",
 							"param": "",
@@ -1043,7 +1034,7 @@
 							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
 						},
 						{
-							"id": "67",
+							"id": "87",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-histoire",
 							"method": "GET",
 							"param": "",
@@ -1052,7 +1043,7 @@
 							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
 						},
 						{
-							"id": "79",
+							"id": "90",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-offre-de-valeur",
 							"method": "GET",
 							"param": "",
@@ -1061,7 +1052,7 @@
 							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
 						},
 						{
-							"id": "78",
+							"id": "89",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-plateforme",
 							"method": "GET",
 							"param": "",
@@ -1070,8 +1061,17 @@
 							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
 						},
 						{
-							"id": "101",
+							"id": "124",
 							"uri": "https://www.fabrique.social.gouv.fr/plan-de-site",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/app/uploads/2024/03/cropped-faviconV2-32x32",
+							"otherinfo": "~\uFFFD\u06A6\uFFFD\uFFFDZ\\x001av\uFFFD\uFFFD\uFFFDn?\uFFFD\u072E\uFFFDiy\u07DFj\uFFFD\uFFFD\uFFFDuv\uFFFD}\uFFFD\uFFFD"
+						},
+						{
+							"id": "105",
+							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1098,7 +1098,7 @@
 					"desc": "<p>This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.</p><p></p><p>An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text.</p>",
 					"instances":[ 
 						{
-							"id": "128",
+							"id": "127",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2F",
 							"method": "GET",
 							"param": "",
@@ -1134,7 +1134,7 @@
 							"otherinfo": "There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match."
 						},
 						{
-							"id": "151",
+							"id": "156",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fnos-startups",
 							"method": "GET",
 							"param": "",
@@ -1143,7 +1143,16 @@
 							"otherinfo": "There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match."
 						},
 						{
-							"id": "154",
+							"id": "181",
+							"uri": "https://www.fabrique.social.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fnos-startups%2Foz-ensemble",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match."
+						},
+						{
+							"id": "141",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fnotre-equipe",
 							"method": "GET",
 							"param": "",
@@ -1152,7 +1161,7 @@
 							"otherinfo": "There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match."
 						},
 						{
-							"id": "137",
+							"id": "142",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fnotre-histoire",
 							"method": "GET",
 							"param": "",
@@ -1161,7 +1170,7 @@
 							"otherinfo": "There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match."
 						},
 						{
-							"id": "147",
+							"id": "140",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fnotre-offre-de-valeur",
 							"method": "GET",
 							"param": "",
@@ -1170,7 +1179,7 @@
 							"otherinfo": "There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match."
 						},
 						{
-							"id": "150",
+							"id": "145",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fnotre-plateforme",
 							"method": "GET",
 							"param": "",
@@ -1188,17 +1197,8 @@
 							"otherinfo": "There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match."
 						},
 						{
-							"id": "160",
+							"id": "179",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fplan-de-site",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match."
-						},
-						{
-							"id": "181",
-							"uri": "https://www.fabrique.social.gouv.fr/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Frencontre-avec-chloe-moser",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1212,7 +1212,7 @@
 					"reference": "<p>https://code.google.com/p/browsersec/wiki/Part2#Character_set_handling_and_detection</p>",
 					"cweid": "436",
 					"wascid": "15",
-					"sourceid": "512"
+					"sourceid": "514"
 				},
 				{
 					"pluginid": "10027",
@@ -1225,53 +1225,35 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "142",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=1230900547",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Admin",
-							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in likely comment: \"// Admin bar\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "138",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=2107048954",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Admin",
-							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in likely comment: \"// Admin bar\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "132",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=800568601",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Admin",
-							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in likely comment: \"// Admin bar\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "141",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/init.js?ver=1230900547",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "from",
-							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// code pulled from:\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "139",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/init.js?ver=2107048954",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "from",
-							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// code pulled from:\", see evidence field for the suspicious comment/snippet."
-						},
-						{
 							"id": "131",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/init.js?ver=800568601",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=1717319380",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in likely comment: \"// Admin bar\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "136",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/app.js?ver=949610359",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Admin",
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in likely comment: \"// Admin bar\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "129",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/init.js?ver=1717319380",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from",
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// code pulled from:\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "148",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/init.js?ver=1924214910",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1280,7 +1262,25 @@
 						},
 						{
 							"id": "146",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=1230900547",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/init.js?ver=306397709",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from",
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// code pulled from:\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "138",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/init.js?ver=949610359",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "from",
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// code pulled from:\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "133",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=1717319380",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1289,7 +1289,7 @@
 						},
 						{
 							"id": "144",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=2107048954",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=306397709",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1297,8 +1297,8 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected in likely comment: \"// TODO only call this if the width has changed.\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "135",
-							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=800568601",
+							"id": "139",
+							"uri": "https://www.fabrique.social.gouv.fr/app/themes/uncode/library/js/plugins.js?ver=949610359",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1306,7 +1306,7 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected in likely comment: \"// TODO only call this if the width has changed.\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "129",
+							"id": "128",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
 							"method": "GET",
 							"param": "",
@@ -1324,7 +1324,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//get.adobe.com/flashplayer/\",\"mejs.fullscreen\":\"Fullscreen\",\"mejs.play\":\"Play\",\"mejs.pause\":\"Pause\",\"mejs.time-slider\":\"Time Sl\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "117",
+							"id": "109",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "",
@@ -1339,7 +1339,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "1049"
+					"sourceid": "544"
 				},
 				{
 					"pluginid": "10109",
@@ -1352,7 +1352,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "11",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -1361,7 +1361,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "73",
+							"id": "86",
 							"uri": "https://www.fabrique.social.gouv.fr/",
 							"method": "GET",
 							"param": "",
@@ -1370,7 +1370,16 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "103",
+							"id": "134",
+							"uri": "https://www.fabrique.social.gouv.fr/?s",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" class=\"trigger-overlay search-icon\" data-area=\"search\" data-container=\"box-container\" aria-label=\"Recherche\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-search3\"></i><span class=\"desktop-hidden\"><span>Recherche</span></span><i class=\"fa fa-angle-down fa-dropdown desktop-hidden\"></i>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "119",
 							"uri": "https://www.fabrique.social.gouv.fr/accessibilite",
 							"method": "GET",
 							"param": "",
@@ -1379,7 +1388,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "108",
+							"id": "118",
 							"uri": "https://www.fabrique.social.gouv.fr/mentions-legales",
 							"method": "GET",
 							"param": "",
@@ -1388,7 +1397,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "91",
+							"id": "121",
 							"uri": "https://www.fabrique.social.gouv.fr/nos-startups",
 							"method": "GET",
 							"param": "",
@@ -1397,7 +1406,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "95",
+							"id": "98",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-equipe",
 							"method": "GET",
 							"param": "",
@@ -1406,7 +1415,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "76",
+							"id": "91",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-histoire",
 							"method": "GET",
 							"param": "",
@@ -1415,7 +1424,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "83",
+							"id": "95",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-offre-de-valeur",
 							"method": "GET",
 							"param": "",
@@ -1424,7 +1433,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "82",
+							"id": "94",
 							"uri": "https://www.fabrique.social.gouv.fr/notre-plateforme",
 							"method": "GET",
 							"param": "",
@@ -1433,16 +1442,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "134",
-							"uri": "https://www.fabrique.social.gouv.fr/nous-etions-a-vivatech-2024",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a href=\"#\" class=\"trigger-overlay search-icon\" data-area=\"search\" data-container=\"box-container\" aria-label=\"Recherche\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-search3\"></i><span class=\"desktop-hidden\"><span>Recherche</span></span><i class=\"fa fa-angle-down fa-dropdown desktop-hidden\"></i>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "105",
+							"id": "125",
 							"uri": "https://www.fabrique.social.gouv.fr/plan-de-site",
 							"method": "GET",
 							"param": "",
@@ -1470,7 +1470,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "38",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1485,7 +1485,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "10"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -1498,7 +1498,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "5",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "cache-control",
@@ -1507,25 +1507,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
-							"uri": "https://www.fabrique.social.gouv.fr/",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "71",
-							"uri": "https://www.fabrique.social.gouv.fr/notre-histoire",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "8",
+							"id": "32",
 							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "cache-control",
@@ -1534,7 +1516,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "68",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/",
 							"method": "GET",
 							"param": "cache-control",
@@ -1543,7 +1525,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "67",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/wp/v2/pages/127",
 							"method": "GET",
 							"param": "cache-control",
@@ -1552,7 +1534,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "55",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-index.xsl",
 							"method": "GET",
 							"param": "cache-control",
@@ -1561,7 +1543,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "65",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-posts-page-1.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -1570,7 +1552,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "60",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-posts-post-1.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -1579,7 +1561,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "70",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-taxonomies-category-1.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -1588,7 +1570,25 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "73",
+							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-taxonomies-page_category-1.xml",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "75",
+							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-users-1.xml",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "40",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -1616,7 +1616,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "3",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1625,7 +1625,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "25",
 							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1634,7 +1634,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "21",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1662,7 +1662,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "2",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1671,7 +1671,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "23",
 							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1680,7 +1680,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "20",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1708,7 +1708,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "1",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1717,7 +1717,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "1",
+							"id": "19",
+							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "18",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1726,7 +1735,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
@@ -1745,7 +1754,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "4",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1754,7 +1763,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "26",
 							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1763,7 +1772,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "22",
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -1800,7 +1809,7 @@
 							"otherinfo": "cookie:wordpress_test_cookie"
 						},
 						{
-							"id": "166",
+							"id": "165",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?action=lostpassword",
 							"method": "GET",
 							"param": "wordpress_test_cookie",
@@ -1809,7 +1818,7 @@
 							"otherinfo": "cookie:wordpress_test_cookie"
 						},
 						{
-							"id": "126",
+							"id": "120",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "wordpress_test_cookie",
@@ -1818,7 +1827,7 @@
 							"otherinfo": "cookie:wordpress_test_cookie"
 						},
 						{
-							"id": "179",
+							"id": "178",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "wordpress_test_cookie",
@@ -1842,7 +1851,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1953"
+					"sourceid": "1951"
 				},
 				{
 					"pluginid": "10049",
@@ -1855,7 +1864,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "24",
 							"uri": "https://www.fabrique.social.gouv.fr",
 							"method": "GET",
 							"param": "",
@@ -1864,7 +1873,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "25",
+							"id": "33",
 							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1873,16 +1882,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "70",
-							"uri": "https://www.fabrique.social.gouv.fr/wp-json/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"id": "62",
+							"id": "69",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-json/wp/v2/pages/127",
 							"method": "GET",
 							"param": "",
@@ -1891,7 +1891,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "49",
+							"id": "56",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-index.xsl",
 							"method": "GET",
 							"param": "",
@@ -1900,7 +1900,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "61",
+							"id": "66",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-posts-page-1.xml",
 							"method": "GET",
 							"param": "",
@@ -1909,7 +1909,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "56",
+							"id": "61",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-posts-post-1.xml",
 							"method": "GET",
 							"param": "",
@@ -1918,7 +1918,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "64",
+							"id": "72",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-taxonomies-category-1.xml",
 							"method": "GET",
 							"param": "",
@@ -1927,7 +1927,16 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "38",
+							"id": "74",
+							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap-taxonomies-page_category-1.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "44",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -1955,7 +1964,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>",
 					"instances":[ 
 						{
-							"id": "47",
+							"id": "49",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-admin/",
 							"method": "GET",
 							"param": "",
@@ -1964,7 +1973,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "53",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-admin/admin-ajax.php",
 							"method": "GET",
 							"param": "",
@@ -1979,7 +1988,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "41"
+					"sourceid": "32"
 				},
 				{
 					"pluginid": "10031",
@@ -1992,7 +2001,7 @@
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
 						{
-							"id": "165",
+							"id": "164",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?action=lostpassword",
 							"method": "GET",
 							"param": "action",
@@ -2001,7 +2010,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php?action=lostpassword\n\nappears to include user input in:\na(n) [form] tag [id] attribute\n\nThe user input found was:\naction=lostpassword\n\nThe user-controlled value was:\nlostpasswordform"
 						},
 						{
-							"id": "164",
+							"id": "163",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?action=lostpassword",
 							"method": "GET",
 							"param": "action",
@@ -2010,7 +2019,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php?action=lostpassword\n\nappears to include user input in:\na(n) [form] tag [name] attribute\n\nThe user input found was:\naction=lostpassword\n\nThe user-controlled value was:\nlostpasswordform"
 						},
 						{
-							"id": "122",
+							"id": "114",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "redirect_to",
@@ -2019,7 +2028,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F\n\nappears to include user input in:\na(n) [a] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/"
 						},
 						{
-							"id": "121",
+							"id": "113",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "redirect_to",
@@ -2028,7 +2037,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/"
 						},
 						{
-							"id": "118",
+							"id": "110",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "redirect_to",
@@ -2037,7 +2046,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F\n\nappears to include user input in:\na(n) [link] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/css/forms.min.css?ver=6.5.4"
 						},
 						{
-							"id": "119",
+							"id": "111",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "redirect_to",
@@ -2046,7 +2055,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F\n\nappears to include user input in:\na(n) [link] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/css/l10n.min.css?ver=6.5.4"
 						},
 						{
-							"id": "120",
+							"id": "112",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "redirect_to",
@@ -2055,7 +2064,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F\n\nappears to include user input in:\na(n) [link] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/css/login.min.css?ver=6.5.4"
 						},
 						{
-							"id": "123",
+							"id": "115",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "redirect_to",
@@ -2064,7 +2073,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F\n\nappears to include user input in:\na(n) [script] tag [src] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/js/password-strength-meter.min.js?ver=6.5.4"
 						},
 						{
-							"id": "124",
+							"id": "116",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F",
 							"method": "GET",
 							"param": "redirect_to",
@@ -2073,7 +2082,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php?reauth=1&redirect_to=https%3A%2F%2Fwww.fabrique.social.gouv.fr%2Fwp-admin%2F\n\nappears to include user input in:\na(n) [script] tag [src] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/js/user-profile.min.js?ver=6.5.4"
 						},
 						{
-							"id": "176",
+							"id": "175",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "redirect_to",
@@ -2082,7 +2091,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php\n\nappears to include user input in:\na(n) [a] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/"
 						},
 						{
-							"id": "175",
+							"id": "174",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "redirect_to",
@@ -2091,7 +2100,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/"
 						},
 						{
-							"id": "170",
+							"id": "169",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "redirect_to",
@@ -2100,7 +2109,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php\n\nappears to include user input in:\na(n) [link] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/css/forms.min.css?ver=6.5.4"
 						},
 						{
-							"id": "171",
+							"id": "170",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "redirect_to",
@@ -2109,7 +2118,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php\n\nappears to include user input in:\na(n) [link] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/css/l10n.min.css?ver=6.5.4"
 						},
 						{
-							"id": "172",
+							"id": "171",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "redirect_to",
@@ -2118,7 +2127,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php\n\nappears to include user input in:\na(n) [link] tag [href] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/css/login.min.css?ver=6.5.4"
 						},
 						{
-							"id": "177",
+							"id": "176",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "redirect_to",
@@ -2127,7 +2136,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php\n\nappears to include user input in:\na(n) [script] tag [src] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/js/password-strength-meter.min.js?ver=6.5.4"
 						},
 						{
-							"id": "178",
+							"id": "177",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "redirect_to",
@@ -2136,7 +2145,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php\n\nappears to include user input in:\na(n) [script] tag [src] attribute\n\nThe user input found was:\nredirect_to=https://www.fabrique.social.gouv.fr/wp-admin/\n\nThe user-controlled value was:\nhttps://www.fabrique.social.gouv.fr/wp-admin/js/user-profile.min.js?ver=6.5.4"
 						},
 						{
-							"id": "173",
+							"id": "172",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "rememberme",
@@ -2145,7 +2154,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://www.fabrique.social.gouv.fr/wp-login.php\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nrememberme=forever\n\nThe user-controlled value was:\nforever"
 						},
 						{
-							"id": "174",
+							"id": "173",
 							"uri": "https://www.fabrique.social.gouv.fr/wp-login.php",
 							"method": "POST",
 							"param": "wp-submit",
@@ -2160,7 +2169,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "1381"
+					"sourceid": "1199"
 				}
 			]
 		}
