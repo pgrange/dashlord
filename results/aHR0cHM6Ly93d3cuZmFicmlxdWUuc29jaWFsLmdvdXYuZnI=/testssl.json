@@ -269,7 +269,7 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "05C03738B4CB6074FD0E55667F2F51BCE4BF"
+              "finding"      : "068B7A6403E90C3399103C926994510AEA87"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4B8E09732C5FD13B9510459A03E3BE1745C83DAB"
+              "finding"      : "6597E46A9FC3F2E36DCE8E7501CCAB6D1F720CFA"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "32179B4795B37BDBD9CF721D5823AF32E61A0CCE3752D6238D41C9AC6F884543"
+              "finding"      : "B9F9A8A956F363E5FCF11DFAE066E64C5CE1CCD95D010A3A56F4457914213F4B"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIID2zCCA2GgAwIBAgISBcA3OLTLYHT9DlVmfy9RvOS/MAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNjAeFw0yNTA4MTUxOTM3NTVaFw0yNTExMTMxOTM3NTRaMDQxMjAwBgNVBAMTKXdvcmRwcmVzcy5sYWZhYnJpcXVlbnVtZXJpcXVlLmNsb3VkLWVkLmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERHY0TJOrEkFVtOPXxZva2DG35F4faOZ7DsacY/Zpk2/9CGU3RKvhsr7GsqTBxfNy+rbyctjh64XYJ9zEwV6u2aOCAlMwggJPMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUbd5mC7cAjkSJbWymoLx0TW+HbmswHwYDVR0jBBgwFoAUkydGmAOpUWiOmNbEQkjbI79YlNIwMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAChhZodHRwOi8vZTYuaS5sZW5jci5vcmcvMFEGA1UdEQRKMEiCKXdvcmRwcmVzcy5sYWZhYnJpcXVlbnVtZXJpcXVlLmNsb3VkLWVkLmZyght3d3cuZmFicmlxdWUuc29jaWFsLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwLQYDVR0fBCYwJDAioCCgHoYcaHR0cDovL2U2LmMubGVuY3Iub3JnLzY0LmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB1AA3h8jAr0w3BQGISCepVLvxHdHyx1+kw7w5CHrR+Tqo0AAABmK9yrVgAAAQDAEYwRAIgPRMqYknIynCAzgaewx9OPqIQrEuUIToZsUKg0vHhNKgCIF+fG6GpCPjERX/l0IN7dTpQoX3k5ZvAUuhUoHE3bBgzAHYAGgT/SdBUHUCv9qDDv/HYxGcvTuzuI0BomGsXQC7ciX0AAAGYr3KtnAAABAMARzBFAiEAx28LlxW0Z1PqzBXOqylJUYw0mONLW8YaXqTRapbbx9oCIDdWE1sB3FqXenZa+JIoeX6ShSpdcG9nLtRzFm7QO2a9MAoGCCqGSM49BAMDA2gAMGUCMQDbnchxj24qrxDAaY/OZfR/IdlXNYZcC1uXL4Y4FT3w9gwzXPftGJ1UlDwY18ePHtYCMDL6ZkC2PjDMzV641C0F5Wl1xS6bBrmy9XXAm37vBUFpJ/1gYxp3t2iwpgBvC8YRLg==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIID9DCCA3ugAwIBAgISBot6ZAPpDDOZEDySaZRRCuqHMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFODAeFw0yNTEwMTQxOTA2MDFaFw0yNjAxMTIxOTA2MDBaMDQxMjAwBgNVBAMTKXdvcmRwcmVzcy5sYWZhYnJpcXVlbnVtZXJpcXVlLmNsb3VkLWVkLmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEP9aaAUekHjBhTJE9KiseGcSAbJD9/fgbkddnAgtNk/P/X0eyCMsYBBR5pNJAlzJaLQ3k6FjgCYxBr14Z+BVfrqOCAm0wggJpMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQULRHSOfwmBFuGeVRf/TWQf74/IQowHwYDVR0jBBgwFoAUjw0TovYuftFQbDMYOF1ZjiNykcowMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAChhZodHRwOi8vZTguaS5sZW5jci5vcmcvMGoGA1UdEQRjMGGCF2ZhYnJpcXVlLnNvY2lhbC5nb3V2LmZygil3b3JkcHJlc3MubGFmYWJyaXF1ZW51bWVyaXF1ZS5jbG91ZC1lZC5mcoIbd3d3LmZhYnJpcXVlLnNvY2lhbC5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMCwGA1UdHwQlMCMwIaAfoB2GG2h0dHA6Ly9lOC5jLmxlbmNyLm9yZy84LmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB3AEmcm2neHXzs/DbezYdkprhbrwqHgBnRVVL76esp3fjDAAABmeRTCoYAAAQDAEgwRgIhAOfMQRJmYG3M7WouihBCRSg9BSSoZLFyQxMhhawXN4AfAiEAm8f0H5hAE7Efsm+O0enuWCyciGlpGtlNy1hlEBejSMMAdgAZhtTHKKpv/roDb3gqTQGRqs4tcjEPrs5dcEEtJUzH1AAAAZnkUwqLAAAEAwBHMEUCIQDXJjh4PdXYzXQYRtrYZ6eD+Gmj+pj4UDH6ql11OABa3wIgSv8nsxYjRx5iDZOoujVviXYHrwshAcqzXZI9NHN3mAEwCgYIKoZIzj0EAwMDZwAwZAIwD9fvZybQdfcB9eTGyMeGOlLo25pocd6iL+zreN+V7aYVhOxakr+qM0khYrm7KDdjAjB1ZafPmvzFHo6ea1AvVf9WQg8sre/K55NMhjy9udfkls4hNwPTn2r502juzwy1s88=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -318,7 +318,7 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "wordpress.lafabriquenumerique.cloud-ed.fr www.fabrique.social.gouv.fr"
+              "finding"      : "fabrique.social.gouv.fr wordpress.lafabriquenumerique.cloud-ed.fr www.fabrique.social.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -346,21 +346,21 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "32 >= 30 days"
+              "finding"      : "85 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2025-08-15 19:37"
+              "finding"      : "2025-10-14 19:06"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-11-13 19:37"
+              "finding"      : "2026-01-12 19:06"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,7 +381,7 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://e6.c.lencr.org/64.crl"
+              "finding"      : "http://e8.c.lencr.org/8.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
@@ -437,21 +437,21 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E6 (Let's Encrypt from US)"
+              "finding"      : "E8 (Let's Encrypt from US)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVzCCAj+gAwIBAgIRALBXPpFzlydw27SHyzpFKzgwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTYwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATZ8Z5Gh/ghcWCoJuuj+rnq2h25EqfUJtlRFLFhfHWWvyILOR/VvtEKRqotPEoJhC6+QJVV6RlAN2Z17TJOdwRJ+HB7wxjnzvdxEP6sdNgA1O1tHHMWMxCcOrLqbGL0vbijgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSTJ0aYA6lRaI6Y1sRCSNsjv1iU0jAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAfYt7SiA1sgWGCIpunk46r4AExIRcMxkKgUhNlrrv1B21hOaXN/5miE+LOTbrcmU/M9yvC6MVY730GNFoL8IhJ8j8vrOLpMY22OP6baS1k9YMrtDTlwJHoGby04ThTUeBDksS9RiuHvicZqBedQdIF65pZuhpeDcGBcLiYasQr/EO5gxxtLyTmgsHSOVSBcFOn9lgv7LECPq9i7mfH3mpxgrRKSxHpOoZ0KXMcB+hHuvlklHntvcI0mMMQ0mhYj6qtMFStkF1RpCG3IPdIwpVCQqu8GV7s8ubknRzs+3C/Bm19RFOoiPpDkwvyNfvmQ14XkyqqKK5oZ8zhD32kFRQkxa8uZSuh4aTImFxknu39waBxIRXE4jKxlAmQc4QjFZoq1KmQqQg0J/1JF8RlFvJas1VcjLvYlvUB2t6npO6oQjB3l+PNf0DpQH7iUx3Wz5AjQCi6L25FjyE06q6BZ/QlmtYdl/8ZYao4SRqPEs/6cAiF+Qf5zg2UkaWtDphl1LKMuTNLotvsX99HP69V2faNyegodQ0LyTApr/vT01YPE46vNsDLgK+4cL6TrzC/a4WcmF5SRJ938zrv/duJHLXQIku5v0+EwOy59Hdm0PT/Er/84dDV0CSjdR/2XuZM3kpysSKLgD1cKiDA+IRguODCxfO9cyYIg46v9mFmBvyH04=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVjCCAj6gAwIBAgIQY5WTY8JOcIJxWRi/w9ftVjANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBYMTAeFw0yNDAzMTMwMDAwMDBaFw0yNzAzMTIyMzU5NTlaMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFODB2MBAGByqGSM49AgEGBSuBBAAiA2IABNFl8l7cS7QMApzSsvru6WyrOq44ofTUOTIzxULUzDMMNMchIJBwXOhiLxxxs0LXeb5GDcHbR6EToMffgSZjO9SNHfY9gjMy9vQr5/WWOrQTZxh7az6NSNnq3u2ubT6HTKOB+DCB9TAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFI8NE6L2Ln7RUGwzGDhdWY4jcpHKMB8GA1UdIwQYMBaAFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzATBgNVHSAEDDAKMAgGBmeBDAECATAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veDEuYy5sZW5jci5vcmcvMA0GCSqGSIb3DQEBCwUAA4ICAQBnE0hGINKsCYWi0Xx1ygxD5qihEjZ0RI3tTZz1wuATH3ZwYPIp97kWEayanD1j0cDhIYzy4CkDo2jB8D5t0a6zZWzlr98dAQFNh8uKJkIHdLShy+nUyeZxc5bNeMp1Lu0gSzE4McqfmNMvIpeiwWSYO9w82Ob8otvXcO2JUYi3svHIWRm3+707DUbL51XMcY2iZdlCq4Wa9nbuk3WTU4gr6LY8MzVAaDQG2+4U3eJ6qUF10bBnR1uuVyDYs9RhrwucRVnfuDj29CMLTsplM5f5wSV5hUpmUwp/vV7M4w4aGunt74koX71n4EdagCsL/Yk5+mAQU0+tue0JOfAV/R6t1k+Xk9s2HMQFeoxppfzAVC04FdG9M+AC2JWxmFSt6BCuh3CEey3fE52Qrj9YM75rtvIjsm/1Hl+u//Wqxnu1ZQ4jpa+VpuZiGOlWrqSP9eogdOhCGisnyewWJwRQOqK16wiGyZeRxs/Bekw65vwSIaVkBruPiTfMOo0Zh4gVa8/qJgMbJbyrwwG97z/PRgmLKCDl8z3dtA0Z7qq7fta0Gl24uyuB05dqI5J1LvAzKuWdIjT1tP8qCoxSE/xpix8hX2dt3h+/jujUgFPFZ0EVZ0xSyBNRF3MboGZnYXFUxpNjTWPKpagDHJQmqrAcDmWJnMsFY3jSu1igv3OefnWjSQ==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "76E9E288AAFC0E37F4390CBF946AAD997D5C1C901B3CE513D3D8FADBABE2AB85"
+              "finding"      : "83624FD338C8D9B023C18A67CB7A9C0519DA43D11775B4C6CBDAD45C3D997C52"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
@@ -479,7 +479,7 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E6 <-- ISRG Root X1"
+              "finding"      : "E8 <-- ISRG Root X1"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -500,14 +500,14 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1760230909"
+              "finding"      : "1760836116"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1091,6 +1091,6 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53"
+              "finding"      : "98"
           }
 ]
