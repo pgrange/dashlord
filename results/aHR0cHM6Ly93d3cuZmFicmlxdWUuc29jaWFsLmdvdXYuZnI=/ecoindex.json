@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.fabrique.social.gouv.fr",
-        "size": 5114.249,
+        "size": 5114.315,
         "nodes": 1091,
         "requests": 33,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 2.18,
         "water": 3.27,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-01 01:21:39.982817",
+        "date": "2026-03-08 01:15:05.186487",
         "page_type": null
     }
 ]
