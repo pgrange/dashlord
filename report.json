@@ -345,7 +345,7 @@
         "responseHeaders": {
           "content-security-policy": "*",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Sun, 12 Jul 2026 01:56:31 GMT",
+          "date": "Sun, 19 Jul 2026 01:59:30 GMT",
           "link": "<https://www.fabrique.social.gouv.fr/wp-json/>; rel=\"https://api.w.org/\", <https://www.fabrique.social.gouv.fr/wp-json/wp/v2/pages/127>; rel=\"alternate\"; type=\"application/json\", <https://www.fabrique.social.gouv.fr/>; rel=shortlink",
           "server": "nginx",
           "strict-transport-security": "max-age=31536000; includeSubDomains",
@@ -807,7 +807,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "OK",
-        "finding": "60 >= 30 days"
+        "finding": "53 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -1045,14 +1045,14 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "+1 (± 1.5) seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1783821426"
+        "finding": "1784426441"
       },
       {
         "id": "HSTS_time",
@@ -1636,7 +1636,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "60"
+        "finding": "111"
       }
     ],
     "thirdparties": {
@@ -1647,7 +1647,7 @@
           "value": "1",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1783822632,
+          "expires": 1784427306,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -1659,10 +1659,10 @@
         },
         {
           "name": "_pk_id.2.6321",
-          "value": "640d4a8df87cbe5d.1783820833.",
+          "value": "70781704232d0311.1784425507.",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1817776033,
+          "expires": 1818380707,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -1676,7 +1676,7 @@
       "headers": {
         "content-security-policy": "*",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 12 Jul 2026 01:47:06 GMT",
+        "date": "Sun, 19 Jul 2026 01:44:59 GMT",
         "link": "<https://www.fabrique.social.gouv.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.fabrique.social.gouv.fr/wp-json/wp/v2/pages/127>; rel=\"alternate\"; type=\"application/json\"\n<https://www.fabrique.social.gouv.fr/>; rel=shortlink",
         "server": "nginx",
         "strict-transport-security": "max-age=31536000; includeSubDomains",
@@ -2079,8 +2079,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 12 Jul 2026 01:55:17",
-      "created": "2026-07-12T01:55:17.910146383Z",
+      "@generated": "Sun, 19 Jul 2026 01:57:47",
+      "created": "2026-07-19T01:57:47.811258868Z",
       "insights": [
         {
           "level": "Low",
@@ -2088,7 +2088,7 @@
           "site": "",
           "key": "insight.log.warn",
           "description": "ZAP warnings logged - see the zap.log file for details",
-          "statistic": "6"
+          "statistic": "3"
         },
         {
           "level": "Info",
@@ -2096,7 +2096,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.code.2xx",
           "description": "Percentage of responses with status code 2xx",
-          "statistic": "96"
+          "statistic": "94"
         },
         {
           "level": "Info",
@@ -2104,7 +2104,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.code.3xx",
           "description": "Percentage of responses with status code 3xx",
-          "statistic": "3"
+          "statistic": "4"
         },
         {
           "level": "Info",
@@ -2120,7 +2120,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.application/javascript",
           "description": "Percentage of endpoints with content type application/javascript",
-          "statistic": "6"
+          "statistic": "9"
         },
         {
           "level": "Info",
@@ -2128,7 +2128,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.application/json",
           "description": "Percentage of endpoints with content type application/json",
-          "statistic": "2"
+          "statistic": "4"
         },
         {
           "level": "Info",
@@ -2144,7 +2144,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.application/xml",
           "description": "Percentage of endpoints with content type application/xml",
-          "statistic": "2"
+          "statistic": "3"
         },
         {
           "level": "Info",
@@ -2152,7 +2152,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.image/jpeg",
           "description": "Percentage of endpoints with content type image/jpeg",
-          "statistic": "3"
+          "statistic": "1"
         },
         {
           "level": "Info",
@@ -2160,7 +2160,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.image/png",
           "description": "Percentage of endpoints with content type image/png",
-          "statistic": "55"
+          "statistic": "34"
         },
         {
           "level": "Info",
@@ -2168,7 +2168,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.image/svg+xml",
           "description": "Percentage of endpoints with content type image/svg+xml",
-          "statistic": "7"
+          "statistic": "11"
         },
         {
           "level": "Info",
@@ -2176,7 +2176,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.text/css",
           "description": "Percentage of endpoints with content type text/css",
-          "statistic": "3"
+          "statistic": "4"
         },
         {
           "level": "Info",
@@ -2184,7 +2184,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.text/html",
           "description": "Percentage of endpoints with content type text/html",
-          "statistic": "16"
+          "statistic": "27"
         },
         {
           "level": "Info",
@@ -2214,17 +2214,9 @@
           "level": "Info",
           "reason": "Informational",
           "site": "https://www.fabrique.social.gouv.fr",
-          "key": "insight.endpoint.method.POST",
-          "description": "Percentage of endpoints with method POST",
-          "statistic": "1"
-        },
-        {
-          "level": "Info",
-          "reason": "Informational",
-          "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.total",
           "description": "Count of total endpoints",
-          "statistic": "312"
+          "statistic": "205"
         },
         {
           "level": "Info",
@@ -2232,7 +2224,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.response.slow",
           "description": "Percentage of slow responses",
-          "statistic": "85"
+          "statistic": "100"
         }
       ],
       "site": [
@@ -2455,7 +2447,7 @@
       {
         "requestedUrl": "https://www.fabrique.social.gouv.fr/",
         "finalUrl": "https://www.fabrique.social.gouv.fr/",
-        "fetchTime": "2026-07-12T01:55:34.555Z",
+        "fetchTime": "2026-07-19T01:58:05.735Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2518,53 +2510,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 22459,
+            "numericValue": 22761,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 10724,
-                  "firstMeaningfulPaint": 10769,
-                  "largestContentfulPaint": 22579,
-                  "interactive": 22459,
-                  "speedIndex": 25308,
-                  "totalBlockingTime": 168,
-                  "maxPotentialFID": 158,
-                  "cumulativeLayoutShift": 0.031505859375,
-                  "cumulativeLayoutShiftMainFrame": 0.031505859375,
-                  "totalCumulativeLayoutShift": 0.031505859375,
+                  "firstContentfulPaint": 12008,
+                  "firstMeaningfulPaint": 12050,
+                  "largestContentfulPaint": 23976,
+                  "interactive": 22761,
+                  "speedIndex": 37721,
+                  "totalBlockingTime": 162,
+                  "maxPotentialFID": 146,
+                  "cumulativeLayoutShift": 0.032029083251953125,
+                  "cumulativeLayoutShiftMainFrame": 0.032029083251953125,
+                  "totalCumulativeLayoutShift": 0.032029083251953125,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 592780795,
+                  "observedTimeOriginTs": 880077583,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 592780795,
-                  "observedFirstPaint": 9017,
-                  "observedFirstPaintTs": 601798248,
-                  "observedFirstContentfulPaint": 9017,
-                  "observedFirstContentfulPaintTs": 601798248,
-                  "observedFirstContentfulPaintAllFrames": 9017,
-                  "observedFirstContentfulPaintAllFramesTs": 601798248,
-                  "observedFirstMeaningfulPaint": 9039,
-                  "observedFirstMeaningfulPaintTs": 601819611,
-                  "observedLargestContentfulPaint": 16662,
-                  "observedLargestContentfulPaintTs": 609442526,
-                  "observedLargestContentfulPaintAllFrames": 16662,
-                  "observedLargestContentfulPaintAllFramesTs": 609442526,
-                  "observedTraceEnd": 18546,
-                  "observedTraceEndTs": 611327172,
-                  "observedLoad": 14364,
-                  "observedLoadTs": 607144354,
+                  "observedNavigationStartTs": 880077583,
+                  "observedFirstPaint": 14354,
+                  "observedFirstPaintTs": 894431800,
+                  "observedFirstContentfulPaint": 14354,
+                  "observedFirstContentfulPaintTs": 894431800,
+                  "observedFirstContentfulPaintAllFrames": 14354,
+                  "observedFirstContentfulPaintAllFramesTs": 894431800,
+                  "observedFirstMeaningfulPaint": 14374,
+                  "observedFirstMeaningfulPaintTs": 894451341,
+                  "observedLargestContentfulPaint": 30334,
+                  "observedLargestContentfulPaintTs": 910411383,
+                  "observedLargestContentfulPaintAllFrames": 30334,
+                  "observedLargestContentfulPaintAllFramesTs": 910411383,
+                  "observedTraceEnd": 32639,
+                  "observedTraceEndTs": 912716887,
+                  "observedLoad": 25753,
+                  "observedLoadTs": 905830931,
                   "observedDomContentLoaded": 1,
-                  "observedDomContentLoadedTs": 592781907,
-                  "observedCumulativeLayoutShift": 0.031505859375,
-                  "observedCumulativeLayoutShiftMainFrame": 0.031505859375,
-                  "observedTotalCumulativeLayoutShift": 0.031505859375,
-                  "observedFirstVisualChange": 9039,
-                  "observedFirstVisualChangeTs": 601819795,
-                  "observedLastVisualChange": 16681,
-                  "observedLastVisualChangeTs": 609461795,
-                  "observedSpeedIndex": 11861,
-                  "observedSpeedIndexTs": 604641937
+                  "observedDomContentLoadedTs": 880078504,
+                  "observedCumulativeLayoutShift": 0.032029083251953125,
+                  "observedCumulativeLayoutShiftMainFrame": 0.032029083251953125,
+                  "observedTotalCumulativeLayoutShift": 0.032029083251953125,
+                  "observedFirstVisualChange": 14374,
+                  "observedFirstVisualChangeTs": 894451583,
+                  "observedLastVisualChange": 30356,
+                  "observedLastVisualChangeTs": 910433583,
+                  "observedSpeedIndex": 20267,
+                  "observedSpeedIndexTs": 900344595
                 },
                 {
                   "lcpInvalidated": false
@@ -2586,19 +2578,19 @@
                   "numScripts": 11,
                   "numStylesheets": 6,
                   "numFonts": 4,
-                  "numTasks": 2383,
-                  "numTasksOver10ms": 13,
+                  "numTasks": 3304,
+                  "numTasksOver10ms": 14,
                   "numTasksOver25ms": 3,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 80.402,
-                  "throughput": 2310005.8869138183,
-                  "maxRtt": 86.535,
-                  "maxServerLatency": 643.1179999999999,
-                  "totalByteWeight": 4688510,
-                  "totalTaskTime": 545.4599999999987,
-                  "mainDocumentTransferSize": 396893
+                  "rtt": 138.902,
+                  "throughput": 1258880.276175202,
+                  "maxRtt": 143.93,
+                  "maxServerLatency": 1926.3739999999998,
+                  "totalByteWeight": 4688593,
+                  "totalTaskTime": 615.4819999999929,
+                  "mainDocumentTransferSize": 396894
                 }
               ]
             }
