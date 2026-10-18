@@ -2672,7 +2672,7 @@
     "summary": {
       "404": 17,
       "httpGrade": "B",
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2026-11-10T11:09:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "B",
